@@ -7,3 +7,12 @@ a {
 .full-width {
   width: 100%;
 }
+.header a {
+  text-decoration: none;
+}
+.entries {
+  margin-top: -15px;
+  border-top: 5px solid #F2F2F2;
+  min-height: 400px;
+  margin-bottom: 20px;
+}

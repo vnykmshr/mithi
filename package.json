@@ -1,9 +1,8 @@
 {
-  "name": "application-name",
-  "description": "The git repository for the \"-\" web application",
+  "name": "mithila",
+  "description": "The git repository for the \"mithi.la\" web application",
   "version": "0.0.1",
-  "homepage": "",
-  "private": true,
+  "homepage": "http://mithi.la",
   "scripts": {
     "start": "node app"
   },
@@ -12,7 +11,8 @@
     "jade": "*",
     "smush": "0",
     "optimist": "0",
-    "recluster": "0"
+    "recluster": "0",
+    "debug": "0"
   },
   "repository": {
     "type": "git",

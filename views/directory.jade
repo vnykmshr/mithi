@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  .container
+    .entries
+      each item in results
+        a(href="#{item.link}")
+          img(src="#{item.image}")
+          p= item.name
