@@ -9,10 +9,14 @@
   "dependencies": {
     "express": "3",
     "jade": "*",
+    "mime": "1",
     "smush": "0",
     "optimist": "0",
     "recluster": "0",
-    "debug": "0"
+    "debug": "0",
+    "marked": "0",
+    "highlight.js": "*",
+    "magickwand": "git://github.com/vnykmshr/magickwand.git"
   },
   "repository": {
     "type": "git",
