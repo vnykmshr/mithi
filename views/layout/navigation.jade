@@ -1,11 +1,13 @@
 .container
   .header.clearfix
-    h1: a(href="/") Mithila
+    a(href="/")
+      img.logo(width="72", height="72", src="/images/apple-touch-icon-72x72.png")
+      img.mithila(width="130", height="100", src="/images/mithila.png", alt="mithi.la")
 
     .nav
       input(type="checkbox", id="toggle")
       label.toggle(for="toggle", data-open="Main Menu", data-close="Close Menu", onclick)
       ul.menu
-        li: a(href="#") Sworga Se
-        li: a(href="#") Sundar
-        li: a(href="#") Mithila
+        li: a(href="#") स्वर्ग सँ
+        li: a(href="#") सुन्दर
+        li: a(href="#") मिथिला
